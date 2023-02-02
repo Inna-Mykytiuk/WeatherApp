@@ -223,5 +223,3 @@ fetchWeatherData();
 
 //fade in the page
 app.style.opacity = "1";
-
-console.log("hello");
