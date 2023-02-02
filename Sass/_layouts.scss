@@ -69,7 +69,7 @@
 
 .panel {
   position: absolute;
- width: 30%;
+  width: 30%;
   height: 100%;
   top: 0;
   right: 0;
@@ -167,9 +167,7 @@
     justify-content: space-between;
     
   }
-  // .container > div {
-  //   flex-direction: column;    
-  // }
+
 }
 
 @media screen and (max-width: 800px) { 
@@ -190,7 +188,7 @@
   .container > div {
     padding: 3px;
     margin: 0 auto;
-    margin-bottom: 30px;  
+    margin-bottom: 20px;  
   }
 
   .submit {
