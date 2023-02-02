@@ -173,6 +173,9 @@
 }
 
 @media screen and (max-width: 800px) { 
+  body {
+    overflow-y: hidden;
+  }
   .panel,
   .container {
     position: relative;
@@ -186,7 +189,8 @@
 
   .container > div {
     padding: 3px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    margin-bottom: 30px;  
   }
 
   .submit {
@@ -194,7 +198,11 @@
   }
 
   .panel {
-      width: 50%;
+    width: 60%;
+  }
+
+  .panel ul li {
+    font-size: 14px;
   }
   
 }
