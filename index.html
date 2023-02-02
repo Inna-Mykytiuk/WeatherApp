@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Title</title>
+</head>
+<body>
+  <div class="weather-app">
+    <div class="container">
+      <h3 class="brand">The weather</h3>
+      <div>
+        <h1 class="temp">16&#176</h1>
+
+        <div class="city-time">
+          <h1 class="name">London</h1>
+          <small>
+            <span class="time">06:09</span>
+            -
+            <span class="date">Monday Sep 19</span>
+          </small>
+        </div>
+
+        <div class="weather">
+          <img class="icon" src="./icons/night/119.png" alt="icon" width="50" height="50">
+          <span class="condition">Cloudy</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <form id="locationInput">
+        <input 
+        type="text"
+        class="search"
+        placeholder="Search location..."
+        >
+        <button class="submit" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+
+      <ul class="cities">
+        <li class="city">New York</li>
+        <li class="city">California</li>
+        <li class="city">Paris</li>
+        <li class="city">Tokyo</li>
+      </ul>
+
+      <h4 class="title">Weather Details</h4>
+
+      <ul class="details">
+        <li>
+          <span>Cloudy</span>
+          <span class="cloud">87%</span>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <span class="humidity">64%</span>
+        </li>
+        <li>
+          <span>Wind</span>
+          <span class="wind">8km/h</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+    <!-- <h1 class="title">Webpack Simple Template</h1>
+    <img  class="img" src="images/photo.jpg" alt="girl"> -->
+    <script type="module" src="./weather.js"></script>
+
+</body>
+</html>
