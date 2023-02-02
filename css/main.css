@@ -209,8 +209,11 @@
     width: 100%;
     top: initial;
   }
-  .container > div {
+  .brand {
     padding: 20px;
+  }
+  .container > div {
+    padding: 3px;
     margin: 0 auto;
   }
   .submit {
@@ -223,6 +226,12 @@
 @media screen and (max-width: 500px) {
   html {
     font-size: 12px;
+  }
+  .temp {
+    font-size: 3.5em;
+  }
+  .name {
+    font-size: 3.5em;
   }
 }
 @media screen and (max-width: 300px) {
