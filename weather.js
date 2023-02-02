@@ -87,7 +87,7 @@ function fetchWeatherData() {
   name with template literals*/
   //your own key
   fetch(
-    `http://api.weatherapi.com/v1/current.json?key=1afb03c498bb474489c193714230102&q=${cityInput}`
+    `https://api.weatherapi.com/v1/current.json?key=1afb03c498bb474489c193714230102&q=${cityInput}&aqi=yes`
   )
     /*Take the data (which is in json format)
     and convert it to a regular JS object */
