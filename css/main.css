@@ -34,7 +34,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 40px;
+  padding: 50px 60px;
 }
 
 .brand {
@@ -208,9 +208,6 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  body {
-    overflow-y: hidden;
-  }
 }
 @media screen and (max-width: 855px) {
   .temp {
@@ -224,13 +221,17 @@ html {
     width: 100%;
     top: initial;
   }
+  .city-time h1 {
+    font-size: 2em;
+  }
   .brand {
     padding: 20px;
   }
   .container > div {
     padding: 3px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    padding: 50px 40px;
   }
   .submit {
     display: none;
@@ -240,14 +241,12 @@ html {
   }
   .panel ul li {
     font-size: 14px;
+    margin: 2em 0;
   }
 }
 @media screen and (max-width: 500px) {
   html {
     font-size: 12px;
-  }
-  body {
-    overflow-y: hidden;
   }
   .temp {
     font-size: 3.5em;
@@ -259,6 +258,13 @@ html {
 @media screen and (max-width: 300px) {
   .weather-app {
     min-height: 40em;
+  }
+  body {
+    overflow-y: hidden;
+  }
+  .container > div {
+    margin: 0;
+    padding: 10px 20px;
   }
 }
 *,
