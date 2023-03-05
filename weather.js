@@ -46,7 +46,6 @@ form.addEventListener("submit", (e) => {
   if (search.value.length == 0) {
     alert("Please type in a city name");
   } else {
-
     /*change from default city to the one
     written in the input field */
     cityInput = search.value;
@@ -55,7 +54,7 @@ form.addEventListener("submit", (e) => {
     fetchWeatherData();
 
     /*remove all text from the input fill*/
-    search.value = '';
+    search.value = "";
 
     app.style.opacity = "0";
   }
@@ -114,7 +113,7 @@ function fetchWeatherData() {
       and add it to the page*/
       //Original format: 2021-10-09 17:53
       //New format: 17:53 - Friday 9, 10 2021
-      dateOutput.innerHTML = `${dayOfTheWeek(d, m, y)} ${d}, ${m} ${y}`;
+      dateOutput.innerHTML = `${dayOfTheWeek(d, m, y)} ${d}/${m}/${y}`;
       timeOutput.innerHTML = time;
 
       /*Add the name of the city into the page */

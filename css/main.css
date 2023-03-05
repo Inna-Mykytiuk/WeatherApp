@@ -216,7 +216,7 @@ html {
 }
 @media screen and (max-width: 800px) {
   .panel,
-.container {
+  .container {
     position: relative;
     width: 100%;
     top: initial;
