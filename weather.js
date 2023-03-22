@@ -76,7 +76,8 @@ function dayOfTheWeek(day, month, year) {
     "Friday",
     "Saturday",
   ];
-  return weekday[new Date(`${day}/${month}/${year}`).getDay()];
+  // return weekday[new Date(`${day}/${month}/${year}`).getDay()];
+  return weekday[new Date().getDay()];
 }
 
 /*function that fetches and displays all the data
